@@ -10,6 +10,7 @@
 		5501DE751D48FA7C0079C93B /* WooCommerceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5501DE741D48FA7C0079C93B /* WooCommerceSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5501DE7C1D48FA7C0079C93B /* WooCommerceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5501DE711D48FA7C0079C93B /* WooCommerceSDK.framework */; };
 		5501DE811D48FA7C0079C93B /* WooCommerceSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE801D48FA7C0079C93B /* WooCommerceSDKTests.swift */; };
+		5501DE8C1D48FA870079C93B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE8B1D48FA870079C93B /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		5501DE7B1D48FA7C0079C93B /* WooCommerceSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooCommerceSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5501DE801D48FA7C0079C93B /* WooCommerceSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooCommerceSDKTests.swift; sourceTree = "<group>"; };
 		5501DE821D48FA7C0079C93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5501DE8B1D48FA870079C93B /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				5501DE741D48FA7C0079C93B /* WooCommerceSDK.h */,
 				5501DE761D48FA7C0079C93B /* Info.plist */,
+				5501DE8B1D48FA870079C93B /* Product.swift */,
 			);
 			path = WooCommerceSDK;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5501DE8C1D48FA870079C93B /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 		5501DE861D48FA7C0079C93B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +325,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergioutama.WooCommerceSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		5501DE871D48FA7C0079C93B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
