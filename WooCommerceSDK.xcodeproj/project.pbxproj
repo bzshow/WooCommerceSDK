@@ -11,6 +11,19 @@
 		5501DE7C1D48FA7C0079C93B /* WooCommerceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5501DE711D48FA7C0079C93B /* WooCommerceSDK.framework */; };
 		5501DE811D48FA7C0079C93B /* WooCommerceSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE801D48FA7C0079C93B /* WooCommerceSDKTests.swift */; };
 		5501DE8C1D48FA870079C93B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE8B1D48FA870079C93B /* Product.swift */; };
+		5501DE8E1D49095C0079C93B /* ProductAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE8D1D49095C0079C93B /* ProductAttribute.swift */; };
+		5501DE901D490AF60079C93B /* ProductAttributeTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE8F1D490AF60079C93B /* ProductAttributeTerm.swift */; };
+		5501DE921D490B7D0079C93B /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE911D490B7D0079C93B /* ProductCategory.swift */; };
+		5501DE941D490D810079C93B /* ProductShippingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE931D490D810079C93B /* ProductShippingClass.swift */; };
+		5501DE961D490DC80079C93B /* ProductTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE951D490DC80079C93B /* ProductTag.swift */; };
+		5501DE981D490F970079C93B /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE971D490F970079C93B /* Report.swift */; };
+		5501DE9A1D4917BB0079C93B /* TaxRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE991D4917BB0079C93B /* TaxRate.swift */; };
+		5501DE9C1D491A290079C93B /* TaxClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE9B1D491A290079C93B /* TaxClass.swift */; };
+		5501DE9E1D491A7A0079C93B /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE9D1D491A7A0079C93B /* Coupon.swift */; };
+		5501DEA01D491BF70079C93B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DE9F1D491BF70079C93B /* Customer.swift */; };
+		5501DEA21D491E7B0079C93B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA11D491E7B0079C93B /* Order.swift */; };
+		5501DEA41D49FA020079C93B /* OrderNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA31D49FA020079C93B /* OrderNote.swift */; };
+		5501DEA61D49FDE50079C93B /* Refund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA51D49FDE50079C93B /* Refund.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +44,19 @@
 		5501DE801D48FA7C0079C93B /* WooCommerceSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooCommerceSDKTests.swift; sourceTree = "<group>"; };
 		5501DE821D48FA7C0079C93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5501DE8B1D48FA870079C93B /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5501DE8D1D49095C0079C93B /* ProductAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAttribute.swift; sourceTree = "<group>"; };
+		5501DE8F1D490AF60079C93B /* ProductAttributeTerm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAttributeTerm.swift; sourceTree = "<group>"; };
+		5501DE911D490B7D0079C93B /* ProductCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCategory.swift; sourceTree = "<group>"; };
+		5501DE931D490D810079C93B /* ProductShippingClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductShippingClass.swift; sourceTree = "<group>"; };
+		5501DE951D490DC80079C93B /* ProductTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTag.swift; sourceTree = "<group>"; };
+		5501DE971D490F970079C93B /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		5501DE991D4917BB0079C93B /* TaxRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxRate.swift; sourceTree = "<group>"; };
+		5501DE9B1D491A290079C93B /* TaxClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxClass.swift; sourceTree = "<group>"; };
+		5501DE9D1D491A7A0079C93B /* Coupon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		5501DE9F1D491BF70079C93B /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		5501DEA11D491E7B0079C93B /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		5501DEA31D49FA020079C93B /* OrderNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderNote.swift; sourceTree = "<group>"; };
+		5501DEA51D49FDE50079C93B /* Refund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refund.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +101,7 @@
 			children = (
 				5501DE741D48FA7C0079C93B /* WooCommerceSDK.h */,
 				5501DE761D48FA7C0079C93B /* Info.plist */,
-				5501DE8B1D48FA870079C93B /* Product.swift */,
+				5501DEA71D4B0DC90079C93B /* Model */,
 			);
 			path = WooCommerceSDK;
 			sourceTree = "<group>";
@@ -87,6 +113,27 @@
 				5501DE821D48FA7C0079C93B /* Info.plist */,
 			);
 			path = WooCommerceSDKTests;
+			sourceTree = "<group>";
+		};
+		5501DEA71D4B0DC90079C93B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5501DE9F1D491BF70079C93B /* Customer.swift */,
+				5501DEA11D491E7B0079C93B /* Order.swift */,
+				5501DEA31D49FA020079C93B /* OrderNote.swift */,
+				5501DEA51D49FDE50079C93B /* Refund.swift */,
+				5501DE8B1D48FA870079C93B /* Product.swift */,
+				5501DE8D1D49095C0079C93B /* ProductAttribute.swift */,
+				5501DE8F1D490AF60079C93B /* ProductAttributeTerm.swift */,
+				5501DE911D490B7D0079C93B /* ProductCategory.swift */,
+				5501DE931D490D810079C93B /* ProductShippingClass.swift */,
+				5501DE951D490DC80079C93B /* ProductTag.swift */,
+				5501DE971D490F970079C93B /* Report.swift */,
+				5501DE991D4917BB0079C93B /* TaxRate.swift */,
+				5501DE9B1D491A290079C93B /* TaxClass.swift */,
+				5501DE9D1D491A7A0079C93B /* Coupon.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +244,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5501DE961D490DC80079C93B /* ProductTag.swift in Sources */,
+				5501DEA41D49FA020079C93B /* OrderNote.swift in Sources */,
+				5501DE9A1D4917BB0079C93B /* TaxRate.swift in Sources */,
+				5501DE8E1D49095C0079C93B /* ProductAttribute.swift in Sources */,
+				5501DE981D490F970079C93B /* Report.swift in Sources */,
 				5501DE8C1D48FA870079C93B /* Product.swift in Sources */,
+				5501DE9E1D491A7A0079C93B /* Coupon.swift in Sources */,
+				5501DEA61D49FDE50079C93B /* Refund.swift in Sources */,
+				5501DEA21D491E7B0079C93B /* Order.swift in Sources */,
+				5501DE9C1D491A290079C93B /* TaxClass.swift in Sources */,
+				5501DEA01D491BF70079C93B /* Customer.swift in Sources */,
+				5501DE901D490AF60079C93B /* ProductAttributeTerm.swift in Sources */,
+				5501DE921D490B7D0079C93B /* ProductCategory.swift in Sources */,
+				5501DE941D490D810079C93B /* ProductShippingClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +445,7 @@
 				5501DE871D48FA7C0079C93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5501DE881D48FA7C0079C93B /* Build configuration list for PBXNativeTarget "WooCommerceSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +454,7 @@
 				5501DE8A1D48FA7C0079C93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

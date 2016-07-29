@@ -166,3 +166,12 @@ public struct VariationAttributeProperty {
     var name : String
     var option : String // selected attribute term name
 }
+
+public struct ProductReview {
+    var id : Int
+    var dateCreated : String
+    var rating : Int
+    var name : String
+    var email : String
+    var verified : Bool
+}
