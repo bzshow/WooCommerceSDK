@@ -8,14 +8,36 @@
 
 import Foundation
 
+
+enum CouponType: String {
+    case fixedCart = "fixed_cart"
+    case percent = "percent"
+    case fixedProduct = "fixed_product"
+    case percentProduct = "percent_product"
+}
+
 struct Coupon {
-    var id : Int
-    var code : String
-    var dateCreated : NSDate
-    var dateModified : NSDate
+    
+    /// Coupon ID, Readonly
+    private (set) var id : Int
+    
+    /// Coupen code, always lowercase, Mandatory
+    var code : String!
+    
+    /// Coupon type. Valid core types are : `fixed_cart`,`percent`,`fixed_product`,`percent_product`. Default is `fixed_cart`
+    var type : CouponType
+    
+    /// UTC DateTime when the coupon was created
+    private (set) var createdAt: NSDate
+    
+    /// UTC DateTime when the coupon was last updated
+    private (set) var updatedAt: NSDate
+    
+    var amount : NSDecimalNumber
+    
     var description : String
     var discountType : String
-    var amount : String
+    
     var expiryDate : String // UTC Timestamp
     var usageCount : Int
     var individualUse : Bool

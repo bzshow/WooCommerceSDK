@@ -1,0 +1,10 @@
+[submodule "Carthage/Checkouts/Alamofire"]
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Carthage/Checkouts/ObjectMapper"]
+	url = https://github.com/Hearst-DD/ObjectMapper.git
+	path = Carthage/Checkouts/ObjectMapper
+[submodule "Carthage/Checkouts/xcconfigs"]
+	url = https://github.com/jspahrsummers/xcconfigs.git
+	path = Carthage/Checkouts/xcconfigs
+[submodule "Carthage/Checkouts/OHHTTPStubs"]
+	url = https://github.com/AliSoftware/OHHTTPStubs.git

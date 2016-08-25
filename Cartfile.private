@@ -1,0 +1,4 @@
+github "AliSoftware/OHHTTPStubs" ~> 5.1.0
+github "jspahrsummers/xcconfigs" ~> 0.9
+# github "Quick/Nimble"
+# github "Quick/Quick" ~> 0.9.3

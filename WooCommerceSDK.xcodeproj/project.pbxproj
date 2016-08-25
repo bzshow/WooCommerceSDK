@@ -24,6 +24,7 @@
 		5501DEA21D491E7B0079C93B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA11D491E7B0079C93B /* Order.swift */; };
 		5501DEA41D49FA020079C93B /* OrderNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA31D49FA020079C93B /* OrderNote.swift */; };
 		5501DEA61D49FDE50079C93B /* Refund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA51D49FDE50079C93B /* Refund.swift */; };
+		5501DEAA1D4B0E8C0079C93B /* WooClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA91D4B0E8C0079C93B /* WooClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		5501DEA11D491E7B0079C93B /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		5501DEA31D49FA020079C93B /* OrderNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderNote.swift; sourceTree = "<group>"; };
 		5501DEA51D49FDE50079C93B /* Refund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refund.swift; sourceTree = "<group>"; };
+		5501DEA91D4B0E8C0079C93B /* WooClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		5501DE671D48FA7C0079C93B = {
 			isa = PBXGroup;
 			children = (
+				55A74C6C1D5201560015DB7B /* Frameworks */,
 				5501DE731D48FA7C0079C93B /* WooCommerceSDK */,
 				5501DE7F1D48FA7C0079C93B /* WooCommerceSDKTests */,
 				5501DE721D48FA7C0079C93B /* Products */,
@@ -101,6 +104,7 @@
 			children = (
 				5501DE741D48FA7C0079C93B /* WooCommerceSDK.h */,
 				5501DE761D48FA7C0079C93B /* Info.plist */,
+				5501DEA81D4B0E440079C93B /* Network */,
 				5501DEA71D4B0DC90079C93B /* Model */,
 			);
 			path = WooCommerceSDK;
@@ -118,6 +122,7 @@
 		5501DEA71D4B0DC90079C93B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5501DE9D1D491A7A0079C93B /* Coupon.swift */,
 				5501DE9F1D491BF70079C93B /* Customer.swift */,
 				5501DEA11D491E7B0079C93B /* Order.swift */,
 				5501DEA31D49FA020079C93B /* OrderNote.swift */,
@@ -131,9 +136,23 @@
 				5501DE971D490F970079C93B /* Report.swift */,
 				5501DE991D4917BB0079C93B /* TaxRate.swift */,
 				5501DE9B1D491A290079C93B /* TaxClass.swift */,
-				5501DE9D1D491A7A0079C93B /* Coupon.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5501DEA81D4B0E440079C93B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5501DEA91D4B0E8C0079C93B /* WooClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		55A74C6C1D5201560015DB7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +266,7 @@
 				5501DE961D490DC80079C93B /* ProductTag.swift in Sources */,
 				5501DEA41D49FA020079C93B /* OrderNote.swift in Sources */,
 				5501DE9A1D4917BB0079C93B /* TaxRate.swift in Sources */,
+				5501DEAA1D4B0E8C0079C93B /* WooClient.swift in Sources */,
 				5501DE8E1D49095C0079C93B /* ProductAttribute.swift in Sources */,
 				5501DE981D490F970079C93B /* Report.swift in Sources */,
 				5501DE8C1D48FA870079C93B /* Product.swift in Sources */,
@@ -379,6 +399,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Alamofire/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ObjectMapper/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = WooCommerceSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -397,6 +422,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Alamofire/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ObjectMapper/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = WooCommerceSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -409,6 +439,10 @@
 		5501DE891D48FA7C0079C93B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = WooCommerceSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergioutama.WooCommerceSDKTests;
@@ -419,6 +453,10 @@
 		5501DE8A1D48FA7C0079C93B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = WooCommerceSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergioutama.WooCommerceSDKTests;
