@@ -4,4 +4,13 @@
    <FileRef
       location = "container:WooCommerceSDK.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/ObjectMapper/ObjectMapper.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
+   </FileRef>
 </Workspace>

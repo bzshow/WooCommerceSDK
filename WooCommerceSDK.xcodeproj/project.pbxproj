@@ -25,6 +25,9 @@
 		5501DEA41D49FA020079C93B /* OrderNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA31D49FA020079C93B /* OrderNote.swift */; };
 		5501DEA61D49FDE50079C93B /* Refund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA51D49FDE50079C93B /* Refund.swift */; };
 		5501DEAA1D4B0E8C0079C93B /* WooClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501DEA91D4B0E8C0079C93B /* WooClient.swift */; };
+		55D1046F1D7E8E100044B0FA /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D1046E1D7E8E100044B0FA /* OHHTTPStubs.framework */; };
+		55D104711D7E8E240044B0FA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D104701D7E8E240044B0FA /* Alamofire.framework */; };
+		55D104731D7E8E2C0044B0FA /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D104721D7E8E2C0044B0FA /* ObjectMapper.framework */; };
 		55F0C1431D75DD6100682829 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0C1421D75DD6100682829 /* NetworkConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,9 @@
 		55D104631D7E77F20044B0FA /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos/OHHTTPStubs.framework"; sourceTree = "<group>"; };
 		55D104651D7E77FF0044B0FA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Carthage/Checkouts/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		55D104671D7E78100044B0FA /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "Carthage/Checkouts/ObjectMapper/build/Debug-iphoneos/ObjectMapper.framework"; sourceTree = "<group>"; };
+		55D1046E1D7E8E100044B0FA /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos/OHHTTPStubs.framework"; sourceTree = "<group>"; };
+		55D104701D7E8E240044B0FA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Carthage/Checkouts/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		55D104721D7E8E2C0044B0FA /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "Carthage/Checkouts/ObjectMapper/build/Debug-iphoneos/ObjectMapper.framework"; sourceTree = "<group>"; };
 		55F0C1421D75DD6100682829 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D104731D7E8E2C0044B0FA /* ObjectMapper.framework in Frameworks */,
+				55D104711D7E8E240044B0FA /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D1046F1D7E8E100044B0FA /* OHHTTPStubs.framework in Frameworks */,
 				5501DE7C1D48FA7C0079C93B /* WooCommerceSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +166,9 @@
 		55A74C6C1D5201560015DB7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55D104721D7E8E2C0044B0FA /* ObjectMapper.framework */,
+				55D104701D7E8E240044B0FA /* Alamofire.framework */,
+				55D1046E1D7E8E100044B0FA /* OHHTTPStubs.framework */,
 				55D104671D7E78100044B0FA /* ObjectMapper.framework */,
 				55D104651D7E77FF0044B0FA /* Alamofire.framework */,
 				55D104631D7E77F20044B0FA /* OHHTTPStubs.framework */,
