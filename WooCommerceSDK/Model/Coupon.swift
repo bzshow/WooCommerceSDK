@@ -9,14 +9,14 @@
 import Foundation
 
 
-enum CouponType: String {
+public enum CouponType: String {
     case fixedCart = "fixed_cart"
     case percent = "percent"
     case fixedProduct = "fixed_product"
     case percentProduct = "percent_product"
 }
 
-struct Coupon {
+public struct Coupon {
     
     /// Coupon ID, Readonly
     private (set) var id : Int

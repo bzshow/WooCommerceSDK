@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import OHHTTPStubs
+
 @testable import WooCommerceSDK
 
 class WooCommerceSDKTests: XCTestCase {

@@ -1,27 +1,20 @@
 //
-//  WooClient.swift
+//  NetworkConfiguration.swift
 //  WooCommerceSDK
 //
-//  Created by Sergio Utama on 29/07/2016.
+//  Created by Sergio Utama on 30/08/2016.
 //  Copyright © 2016 Sergio Utama. All rights reserved.
 //
 
 import Foundation
 
-public final class WooClient {
+public final class NetworkConfiguration {
     
-    let baseURL: NSURL
+    public static var shared: NetworkConfiguration!
     var session: NSURLSession = NSURLSession.sharedSession()
-    var consumerKey : String
-    var consumerSecret : String
-    
-    
-    let APIVersion = "v3"
-    var versionPath : String {
-        get{
-            return "/wc-api/"+APIVersion
-        }
-    }
+    let baseURL: NSURL
+    let consumerKey : String
+    let consumerSecret : String
     
     public init(siteURL: NSURL,
          consumerKey: String,
@@ -34,20 +27,5 @@ public final class WooClient {
         self.baseURL = siteURL
         self.session = NSURLSession(configuration: configuration)
     }
-    
-    func getCoupon() {
-        
-    }
-    
-}
-
-// MARK: - Coupon
-extension WooClient {
-    
-    /// A POST HTTP request to create a new Coupon object to server
-    func createCoupon(coupon: Coupon, completionHandler:(success: Bool, error: NSError?) -> Void){
-        
-    }
-    
     
 }
